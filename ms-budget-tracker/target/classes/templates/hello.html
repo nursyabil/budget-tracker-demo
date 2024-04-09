@@ -1,0 +1,33 @@
+<!-- src/main/resources/templates/hello.html -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Thymeleaf</title>
+    <style>
+        body {
+            background-image: url('/images/mika.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #FFFDD0;
+            color: #333;
+            height: 100vh; /* Ensure the background covers the entire viewport height */
+            margin: 0; /* Remove default margin */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align content to the top */
+            align-items: center;
+        }
+
+        h1 {
+            background-color: #FFFDD0; /* Choose the highlight color you prefer */
+            padding: 10px;
+            display: inline-block; /* Ensure the background color only covers the text */
+        }
+    </style>
+</head>
+<body>
+<div style="text-align: center;"><h1 th:text="'Hello, ' + ${name} + '!'"></h1></div>
+</body>
+</html>

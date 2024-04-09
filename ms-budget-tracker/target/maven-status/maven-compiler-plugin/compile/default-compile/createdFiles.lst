@@ -1,0 +1,5 @@
+com\arrow\budgettracker\msbudgettracker\Item\service\ItemService.class
+com\arrow\budgettracker\msbudgettracker\Item\Controller\ItemController.class
+com\arrow\budgettracker\msbudgettracker\Item\Entity\Item.class
+com\arrow\budgettracker\msbudgettracker\Item\config\MoneyConverter.class
+com\arrow\budgettracker\msbudgettracker\Item\Repository\ItemRepository.class
